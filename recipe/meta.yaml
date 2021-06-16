@@ -1,5 +1,5 @@
 {% set name = "google-cloud-appengine-logging" %}
-{% set version = "0.1.0" %}
+{% set version = "0.1.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-appengine-logging-{{ version }}.tar.gz
-  sha256: 1ce65cc3c1f0ce768af4aca4855d3ec095cbfb12edef96c10287e98f85f76a66
+  sha256: 303678e64ea5e3d959acd744cbcda6029b47f43eb0491c4a04897987c3560ddf
 
 build:
   number: 0
