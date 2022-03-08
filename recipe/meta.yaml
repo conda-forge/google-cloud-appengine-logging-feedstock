@@ -1,5 +1,5 @@
 {% set name = "google-cloud-appengine-logging" %}
-{% set version = "1.1.0" %}
+{% set version = "1.1.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-appengine-logging-{{ version }}.tar.gz
-  sha256: 91fe9b0833f6e1a46293dcc0e483716372c9ff4a95ebe51276c5f0092cb9defd
+  sha256: 361450ed7d7bfd8efd0ef253e21680aeb6f6df3cf057e5e8253f5851f8cbbca7
 
 build:
   number: 0
@@ -21,7 +21,7 @@ requirements:
     - pip
   run:
     - python >=3.6
-    - google-api-core-grpc >=1.22.2,<3.0.0dev
+    - google-api-core-grpc >=1.31.5,<3.0.0dev,!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0
     - packaging >=14.3
     - proto-plus >=1.15.0
 
