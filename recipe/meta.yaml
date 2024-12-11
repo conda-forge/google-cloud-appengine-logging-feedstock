@@ -36,13 +36,12 @@ test:
 
 about:
   home: https://github.com/googleapis/python-appengine-logging
-  summary: Google Cloud Appengine Logging API client library
+  summary: Python Client for Google Cloud Appengine Logging
   license: Apache-2.0
   license_family: Apache
   license_file: LICENSE
   doc_url: https://googleapis.dev/python/appenginelogging/latest/index.html
   dev_url: https://github.com/googleapis/python-appengine-logging
-  summary: Python Client for Google Cloud Appengine Logging
 
 extra:
   recipe-maintainers:
