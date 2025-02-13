@@ -3,15 +3,15 @@ About google-cloud-appengine-logging-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-appengine-logging-feedstock/blob/main/LICENSE.txt)
 
-Home: https://github.com/googleapis/python-appengine-logging
+Home: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-appengine-logging
 
 Package license: Apache-2.0
 
 Summary: Python Client for Google Cloud Appengine Logging
 
-Development: https://github.com/googleapis/python-appengine-logging
+Development: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-appengine-logging
 
-Documentation: https://googleapis.dev/python/appenginelogging/latest/index.html
+Documentation: https://github.com/googleapis/google-cloud-python/blob/main/packages/google-cloud-appengine-logging/README.rst
 
 Current build status
 ====================
