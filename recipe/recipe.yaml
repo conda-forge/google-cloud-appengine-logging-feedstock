@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: google-cloud-appengine-logging
-  version: "1.10.0"
+  version: "1.11.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/google_cloud_appengine_logging-${{ version }}.tar.gz
-  sha256: b5563e76010a36e6adf1cc489620c29ee4fb3b986b006d237e9a061eb0f0abb7
+  sha256: ce053792df98fde4790c5f070176088c9ebf0e55a37c754c8f8e11b28ddb4d73
 
 build:
   number: 0
